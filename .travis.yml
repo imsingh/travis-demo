@@ -1,0 +1,3 @@
+language: javascript
+install: npm install -g typescript
+script: tsc -out build.js src.ts

@@ -1,5 +1,9 @@
 class First {
 	data:string = "Hello";
+	constructor(value) {
+		this.data = value;
+	};
+	
 	display() {
 		console.log(this.data);
 	}

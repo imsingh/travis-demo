@@ -3,11 +3,11 @@ class First {
 	constructor(value) {
 		this.data = value;
 	};
-	
+
 	display() {
 		console.log(this.data);
 	}
 }
 
-let check = new First();
+let check = new First("Hello there!");
 check.display();
